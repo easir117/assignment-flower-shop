@@ -1,0 +1,8 @@
+
+* {font-family: 'Lato', sans-serif;
+}
+.header {
+    width: 1920px;
+    height: 850px;
+    background: rgba(229, 84, 115, 0.10);
+}
