@@ -6,9 +6,49 @@ body {
     margin: 0;
 }
 .header {
+    margin: 0;
     width: 100%;
     height: auto;
     background: rgba(229, 84, 115, 0.10);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.banner{
+
+    display:flex;
+}
+.bannerfirstdiv{
+display: block;
+align-items: center;
+}
+.banner-header {
+color: #272727;
+font-size: 72px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.banner-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.btn-class {
+    color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 8px;
+background: #E55473;
+padding: 20px 43px;
 }
 /*
 .main-flowers {
@@ -32,21 +72,82 @@ section li {
     display: flex;
     justify-content: space-between;
 }
+/* offer details */
 .offer-details {
     display: flex;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
+    justify-content: space-around;
+    padding: 100px 100px;
 }
+
+/* Instagram part */
+.Instagram {
+    text-align: center;
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.insta-content {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+/* Subscribe-section */
 .Subscribe-section {
     text-align: center;
     background-image: 
 }
+.Subscribe-header {
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.Subscribe-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+/* footer part */
+
 .footer-style {
+    width: 1922px;
+    height: 449px;
     text-align: center;
     background: #111010;
     width: 100%;
     height: auto;
     flex-shrink: 0;
+}
+.footer-header {
+    color: white;
+}
+.footer-paragraph {
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
 }
 .footer-right-reserve {
 color: rgba(255, 255, 255, 0.40);
