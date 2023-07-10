@@ -47,7 +47,8 @@ font-weight: 700;
 line-height: normal;
 border-radius: 8px;
 background: #E55473;
-padding: 20px 43px;
+padding: 20px 43px; border:none;
+border-radius: 5px;
 }
 /*
 .main-flowers {
@@ -91,15 +92,7 @@ line-height: 30px;
     margin:10px;
 
 }
-.type-of-flowers {
-    display: flex;
-    justify-content: space-around;
-}
 
-.type-of-flowers div{
-
-    padding:10px;
-}
 
 
 .main-flowers{
@@ -139,7 +132,7 @@ justify-content: space-around;
     margin-top: 150px;margin-bottom: 150px;
     width: 100%;
 
-padding: 50px 50px;
+padding: 50px 0px;
     display: flex;
    justify-content: space-around;
     border-radius: 8px;
@@ -208,13 +201,30 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px;
 }
+/* type of flower */
+
+.type-of-flowers-inner{
+    display: flex;
+    
+}
+.type-of-flowers-inner img{
+    width:100%;
+}
+.type-of-flowers-inner div{
+
+    margin:10px;
+}
+
 
 /* Subscribe-section */
 .Subscribe-section {
     margin-top: 150px;
+    margin-bottom:50px;
+    padding:100px 0px;
     text-align: center;
     background-image: url(/Rectangle\ 9.png);
     background-repeat: no-repeat;
+    background-size:contain;
 }
 .Subscribe-header {
     color: #272727;
@@ -234,12 +244,21 @@ font-weight: 400;
 line-height: 30px;
 }
 
+input[type=email] {
+    width: 45%;
+    padding: 20px 43px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border:none;
+    border-radius: 5px;
+  }
+
 /* footer part */
 
 .footer-style {
-    margin-top: 150px;
+    padding:100px 0px;
     width: 100%;
-    height: 449px;
+   
     text-align: center;
     background: #111010;
     width: 100%;
