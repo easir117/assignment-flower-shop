@@ -21,8 +21,7 @@ body {
     display:flex;
 }
 .bannerfirstdiv{
-display: block;
-align-items: center;
+    align-self: center;
 }
 .banner-header {
 color: #272727;
@@ -86,28 +85,43 @@ line-height: 30px;
 .section-flowers {
     display: flex;
 }
+
+.section-flowers div{
+    width: 33%;
+    margin:10px;
+
+}
 .type-of-flowers {
     display: flex;
     justify-content: space-around;
 }
-.main-flowers-1 {
-    width: 464px;
-height: 538px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
+
+.type-of-flowers div{
+
+    padding:10px;
 }
-.main-flowers-2 {
-    width: 464px;
-height: 538px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15);
-}
-.main-flowers-3 {
-    width: 464px;
-    height: 538px;
+
+
+.main-flowers{
+    width: 100%;
+    height: 450px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
+   
+    
 }
+.color1{
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+.color2{
+    
+background: rgba(5, 151, 160, 0.15);}
+.color3{
+    background: rgba(71, 125, 17, 0.15);
+
+}
+
 .section-flowers-anchor {
     display: flex;
     color: #272727;
@@ -122,25 +136,37 @@ justify-content: space-around;
 }
 /* service details part */
 .service-details {
-    margin-top: 150px;
-    width: 1440px;
-height: 320px;
-padding: 100px 50px;
+    margin-top: 150px;margin-bottom: 150px;
+    width: 100%;
+
+padding: 50px 50px;
     display: flex;
-    justify-content: space-between;
+   justify-content: space-around;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
 }
+.service-details div{
 
+    text-align:center;
+}
 
 /* offer details */
 .offer-details {
-    margin-top: 150px;
-    display: flex;
+    margin-top: 15;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     justify-content: space-around;
     padding: 100px 100px;
+}
+
+.offer-details-inner {
+
+    display: flex;
+}
+
+.offer-details-inner div{
+    align-self: center;
+    text-align: center;
 }
 .offer-details-heading {
     color: #272727;
@@ -148,7 +174,7 @@ font-family: Lato;
 font-size: 40px;
 font-style: normal;
 font-weight: 800;
-line-height: normal;
+line-height: normal;text-align: center;
 }
 .offer-details-paragraph {
     color: rgba(39, 39, 39, 0.60);
@@ -187,7 +213,8 @@ line-height: 30px;
 .Subscribe-section {
     margin-top: 150px;
     text-align: center;
-    background-image: 
+    background-image: url(/Rectangle\ 9.png);
+    background-repeat: no-repeat;
 }
 .Subscribe-header {
     color: #272727;
@@ -211,7 +238,7 @@ line-height: 30px;
 
 .footer-style {
     margin-top: 150px;
-    width: 1922px;
+    width: 100%;
     height: 449px;
     text-align: center;
     background: #111010;
