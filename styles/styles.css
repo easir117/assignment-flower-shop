@@ -6,3 +6,19 @@
     height: 850px;
     background: rgba(229, 84, 115, 0.10);
 }
+.main-flowers {
+    width: 310px;
+height: 428px;
+flex-shrink: 0;
+}
+section li {
+    display: flex;
+    list-style: none;
+}
+
+.service-details {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
