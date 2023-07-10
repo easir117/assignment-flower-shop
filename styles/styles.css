@@ -1,16 +1,21 @@
 
 * {font-family: 'Lato', sans-serif;
 }
+body {
+    padding: 0;
+    margin: 0;
+}
 .header {
-    width: 1920px;
-    height: 850px;
+    width: 100%;
+    height: auto;
     background: rgba(229, 84, 115, 0.10);
 }
+/*
 .main-flowers {
     width: 310px;
 height: 428px;
 flex-shrink: 0;
-}
+}*/
 section li {
     display: flex;
     list-style: none;
@@ -21,4 +26,35 @@ section li {
     justify-content: space-between;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
+}
+
+.type-of-flowers {
+    display: flex;
+    justify-content: space-between;
+}
+.offer-details {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.Subscribe-section {
+    text-align: center;
+    background-image: 
+}
+.footer-style {
+    text-align: center;
+    background: #111010;
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+.footer-right-reserve {
+color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+
+}
+.web-color {
+    color: #E55473;
 }
