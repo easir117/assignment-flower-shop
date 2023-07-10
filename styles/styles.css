@@ -60,7 +60,7 @@ flex-shrink: 0;
 
 /* featured flower part */
 .featured-flower {
-
+margin-top: 150px;
 }
 .featured-flower-header {
     color: #272727;
@@ -88,7 +88,7 @@ line-height: 30px;
 }
 .type-of-flowers {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .main-flowers-1 {
     width: 464px;
@@ -118,9 +118,11 @@ font-style: normal;
 font-weight: 700;
 line-height: 35px;
 text-decoration-line: underline;
+justify-content: space-around;
 }
 /* service details part */
 .service-details {
+    margin-top: 150px;
     width: 1440px;
 height: 320px;
 padding: 100px 50px;
@@ -133,6 +135,7 @@ padding: 100px 50px;
 
 /* offer details */
 .offer-details {
+    margin-top: 150px;
     display: flex;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -159,6 +162,7 @@ line-height: 30px;
 
 /* Instagram part */
 .Instagram {
+    margin-top: 150px;
     text-align: center;
     color: #272727;
 text-align: center;
@@ -181,6 +185,7 @@ line-height: 30px;
 
 /* Subscribe-section */
 .Subscribe-section {
+    margin-top: 150px;
     text-align: center;
     background-image: 
 }
@@ -205,6 +210,7 @@ line-height: 30px;
 /* footer part */
 
 .footer-style {
+    margin-top: 150px;
     width: 1922px;
     height: 449px;
     text-align: center;
