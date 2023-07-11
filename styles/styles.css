@@ -255,8 +255,13 @@ input[type=email] {
 
 /* Bonus part */
 .bonus-part {
+    margin-top: 10px;
+    width: 100%;
+
+padding: 50px 0px;
     text-align: center;
     background:  rgba(229, 84, 115, 0.10);
+    margin-bottom: 100px;
 }
 
 /* footer part */
