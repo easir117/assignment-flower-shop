@@ -222,7 +222,7 @@ line-height: 30px;
     margin-bottom:50px;
     padding:100px 0px;
     text-align: center;
-    background-image: url(/rectangle\ 9.png);
+    background-image: url('/background.png');
     background-repeat: no-repeat;
     background-size:contain;
 }
