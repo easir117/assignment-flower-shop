@@ -253,6 +253,12 @@ input[type=email] {
     border-radius: 5px;
   }
 
+/* Bonus part */
+.bonus-part {
+    text-align: center;
+    background:  rgba(229, 84, 115, 0.10);
+}
+
 /* footer part */
 
 .footer-style {
